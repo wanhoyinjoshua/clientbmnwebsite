@@ -118,6 +118,13 @@ for(let i=0; i<portfoliobox.length; i++){
 
     })
 }
+
+var setting= document.getElementById("setting");
+setting.addEventListener("click",()=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+})
+
+
     
 
    
