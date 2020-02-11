@@ -9,7 +9,8 @@ var i=0;
 var w=0;
 
 
-accopic.addEventListener("mouseover",()=>{
+
+accopic.addEventListener("click",()=>{
     if(accowords.style.maxHeight){
         accowords.style.maxHeight=null;
 
