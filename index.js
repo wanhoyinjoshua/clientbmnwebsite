@@ -9,7 +9,7 @@ var i=0;
 var w=0;
 
 
-accopic.addEventListener("click",()=>{
+accopic.addEventListener("mouseover",()=>{
     if(accowords.style.maxHeight){
         accowords.style.maxHeight=null;
 
@@ -158,6 +158,26 @@ for(let i=0; i<portfoliobox.length; i++){
 
 }
 
+
+
+
+//intro
+var introaccor = document.getElementsByClassName("acco");
+var intr = document.getElementsByClassName("intro");
+
+for (let i=0 ; i<introaccor.length; i++){
+    intr[i].addEventListener("click",()=>{
+        if(introaccor[i].style.maxHeight){
+            introaccor[i].style.maxHeight =null;
+
+        }
+        else{
+            introaccor[i].style.maxHeight= introaccor[i].scrollHeight+"px"
+
+        }
+        
+    })
+}
 
 
 

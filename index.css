@@ -11,6 +11,12 @@
     
 
 }
+.liwrap{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 0;
+    width: 80%;
+}
 a{
     text-decoration: none;
     color: rgb(51, 51, 51);
@@ -68,10 +74,13 @@ hr {
 }
 .myname{
     text-align: center;
+    height: a500;
+    position: relative;
 }
 .myname ul {
     text-align: left;
     margin: 0 auto;
+    height: auto;
 }
 .myname ul li{
     text-align: center;
@@ -296,7 +305,7 @@ body{
     background-size: contain;
     margin-top: 20px;
     margin-bottom: 20px;
-    back
+    
     
 
 }
@@ -425,6 +434,46 @@ main{
     
     
   
+}
+#intro{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.intro{
+    text-align: center;
+    display: block;
+    
+    
+    width: auto;
+    
+}
+.intro  li{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: cornsilk;
+    list-style: outside;
+}
+.acco{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    text-align: center;
+}
+.acco li{
+    text-align: center;
+    background-color: rgb(255, 214, 246);
+}
+#language{
+    width: auto;
+}
+    
+
+#language:hover{
+    cursor: pointer;
+    background-color: rgba(180, 180, 180, 0.76);
+
 }
 
 
@@ -723,6 +772,11 @@ footer{
 #contact ul li {
     text-align: center;
 }
+#contact ul li:hover {
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
 .copyright{
     text-align: center;
     color: rgba(34, 34, 34, 0.57);
@@ -886,7 +940,7 @@ footer{
     
     
     #accpropic{
-        background-image: url(./acco.jpg);
+        background-image: url(./acco.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
