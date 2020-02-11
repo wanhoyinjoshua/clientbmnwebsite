@@ -56,10 +56,11 @@ hr {
     color: rgb(228, 228, 228);
 }
 #aboutme{
-    font-size: 3rem;
+    font-size: 10rem;
     font-weight: bold;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 10%;
 }
 .myname{
     text-align: center;
@@ -91,13 +92,22 @@ body{
 .classcontainer p{
     background-color: blanchedalmond;
     width: auto;
-    height: 150px;
+    height: 200px;
     display: grid;
     
     align-items: center;
     padding: 10px;
     border-radius: 10%;
    
+}
+.highschool{
+    color: black;
+}
+.GPA{
+    color: white;
+    font-weight: bold;
+    
+    
 }
 #setting{
   
@@ -117,6 +127,7 @@ body{
 }
 #projectlogo{
     text-align: center;
+    font-size: 5rem;
 }
 #modalbackgrond{
     overflow: hidden;
@@ -428,11 +439,12 @@ main{
 }
 #myawards{
     text-align: center;
+    display: block;
     
 }
 #awards{
     font-size: 5rem;
-    background-color: whitesmoke;
+    
     
     margin: 0 auto;
 
@@ -458,10 +470,14 @@ main{
     
     width: auto;
     padding:50px;
+    text-align: center;
+    border: rgb(9, 13, 20);
+    border-style: solid;
 }
 #accowords ul li:hover{
-    transform: scale( 1.5) translateY(-5px);
+    transform:  translateY(-10px);
     cursor: pointer;
+    
     
 }
 
@@ -607,9 +623,10 @@ justify-content: center;
     margin: 0  auto;
 }
 .portpic{
-    width: auto;
+    max-width: auto;
     height: 100%;
-    margin: 0 auto;
+    display: block;
+    margin:0 auto;
 }
 .portfolio{
     position: relative;
@@ -664,6 +681,13 @@ footer{
     *{
         font-size: 1rem;
     }
+    #aboutme{
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10%;
+    }
 
     .classcontainer{
         display: grid;
@@ -697,6 +721,13 @@ footer{
     }
     .logocontainer{
         width: 100%;
+    }
+    #awards{
+        font-size: 4rem;
+        
+        
+        margin: 0 auto;
+    
     }
     #about {
         display: grid;
@@ -751,6 +782,9 @@ footer{
         border-width: 3px;
         
         margin-bottom: 10px;
+    }
+    h3{
+        font-size: 2.1rem;
     }
     .font-weight-bold{
         font-weight: bold;
