@@ -139,6 +139,8 @@ for(let i=0; i<portfoliobox.length; i++){
         
         mask.style.display="block";
         closebuu[i].addEventListener("click",()=>{
+            portfolioclick[i].classList.add("smaller")
+            setTimeout(function(){portfolioclick[i].classList.add("smaller")  }, 40);
 
     
             portfolioclick[i].classList.remove("active")
