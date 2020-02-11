@@ -11,6 +11,10 @@
     
 
 }
+a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
 .stop-scrolling {
     height: 100%;
     overflow: hidden;
@@ -102,7 +106,7 @@ body{
     
     align-items: center;
     padding: 10px;
-    border-radius: 10%;
+   
    
 }
 .highschool{
@@ -138,10 +142,10 @@ body{
     overflow: hidden;
     height: 1000%;
     width: 100%;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     top:0;
-    opacity: 0.6;
+    opacity: 0.8;
     display:none;
     position: fixed;
     
@@ -292,6 +296,7 @@ body{
     background-size: contain;
     margin-top: 20px;
     margin-bottom: 20px;
+    back
     
 
 }
@@ -345,6 +350,7 @@ h1{
     text-align: center;
     font-size: 4rem;
     font-family: 'Anton', sans-serif;
+    background-color: rgba(255, 194, 242, 0.582);;
     
     
 }
@@ -366,7 +372,7 @@ h1{
 #mainillustration{
     height: 80vh;
     width: 100%;
-    background-color: rgba(148, 200, 224, 0.582);
+    background-color: rgba(255, 194, 242, 0.582);
     
 }
 .maincanvas{
@@ -431,7 +437,7 @@ main{
 
 }
 #accpropic{
-    background-image: url(./acco.jpg);
+    background-image: url(./acco.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -441,6 +447,8 @@ main{
 }
 #accpropic:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s  ease-in-out;
 }
 #myawards{
     text-align: center;
@@ -495,8 +503,41 @@ main{
     margin: 0 auto;
     
 }
-#propic{
+#propicwork{
     background-image: url("./profile\ .png");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    
+}
+#propiceducation{
+    background-image: url("./profile.blue.png");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    
+}
+#propicvolunteer{
+    background-image: url("./red.png");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    
+}
+#propiceca{
+    background-image: url("purple.png");
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -539,9 +580,7 @@ main{
     background-size: contain;
     background-color: black;
 }
-#slideshowimgcontainer:hover{
-    
-}
+
 
 
 #controlbutt{
@@ -684,6 +723,25 @@ footer{
 #contact ul li {
     text-align: center;
 }
+.copyright{
+    text-align: center;
+    color: rgba(34, 34, 34, 0.57);
+}
+#connectwithme{
+    font-weight: bold;
+    font-size: 3rem;
+}
+#human{
+
+    text-align: center;
+    font-size: 2rem;
+}
+#fun{
+    
+    text-align: center;
+    font-size: 2rem;
+
+}
 
 
 
@@ -710,7 +768,7 @@ footer{
     .classcontainer{
         display: grid;
         grid-template-columns: 1fr 1fr  ;
-        grid-auto-rows: 1fr;
+        grid-auto-rows: 0.5fr;
         grid-row-gap: 25px;
         grid-column-gap: 10px;
         justify-content: center;
@@ -718,6 +776,11 @@ footer{
         text-align: center;
         color: black;
         
+    }
+    .classcontainer p{
+        width: auto;
+        height:auto;
+        border-radius: 0;
     }
     h3{
         position: sticky;
@@ -832,7 +895,7 @@ footer{
         margin: 0 auto;
     }
     #slideshow{
-        height: 300px;
+        height: 600px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -840,6 +903,7 @@ footer{
 
         
     }
+    #slideshowimgcontainer{}
     h3{
         text-align: left;
     }
@@ -944,6 +1008,22 @@ footer{
         display: block;
     margin: 0 auto;
     }
+    #contact{
+        margin: 0 auto;
+        width: 100%;
+        height :70%;
+        display: grid;
+        grid-template-columns: 100px 100px 100px ;
+        justify-content: center;
+       
+    
+       
+    }
+     #contact ul li img{
+    width:80px
+    
+       
+    }
     
     
   }
@@ -960,21 +1040,9 @@ footer{
     body{
         max-width: 100%;
     }
-    #contact{
-        margin: 0 auto;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 100px 100px 100px ;
-        justify-content: center;
-       
     
        
-    }
-     #contact ul li img{
-    width:50%
-    
-       
-    }
+   
     
   }
 
