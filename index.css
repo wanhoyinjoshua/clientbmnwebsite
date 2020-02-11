@@ -20,6 +20,8 @@ h3{
     position: sticky;
     top:0;
     background-color: rgb(75, 75, 75);
+    padding: 2rem;
+    text-align: left;
     
     
 }
@@ -525,7 +527,7 @@ footer{
         overflow-y: scroll;
     }
     .aboutwords{
-        padding: 1rem;
+        padding: 0.2rem;
         height: auto;
         text-align: left;
     }
