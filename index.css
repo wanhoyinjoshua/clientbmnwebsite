@@ -14,6 +14,19 @@
 button{
     border: none;
 }
+h3{
+    font-size: 3rem;
+    color: white;
+    position: sticky;
+    top:0;
+    background-color: rgb(75, 75, 75);
+    
+    
+}
+#aboutme{
+    font-size: 3rem;
+    font-weight: bold;
+}
 body{
     overflow-x: hidden;
     
@@ -230,7 +243,7 @@ main{
 #about{
     display: grid;
     grid-template-columns: 30% 70%;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     background-color: rgb(100, 184, 163);
 
@@ -312,7 +325,7 @@ main{
 .aboutwords{
     
     padding :0 6rem;
-    background-color: rgb(212, 183, 158);
+    
     height: calc(auto + 200px);
    
 }
@@ -504,7 +517,7 @@ footer{
     }
     #about {
         display: grid;
-        grid-template-rows: 20% auto;
+        grid-template-rows: auto;
         grid-template-columns: 100%;
         margin: 0 auto;
         width: 100%;
@@ -512,8 +525,9 @@ footer{
         overflow-y: scroll;
     }
     .aboutwords{
-        padding: 0;
+        padding: 1rem;
         height: auto;
+        text-align: left;
     }
     #listcontainer ul li {
         font-size: 0.9rem;
@@ -525,7 +539,7 @@ footer{
         
         margin: 0;
        
-        color: rgb(238, 238, 238);
+        color: rgb(46, 46, 46);
         
     }
     #description{
