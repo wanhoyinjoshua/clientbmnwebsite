@@ -76,10 +76,20 @@ back.addEventListener("click",()=>{
 })
 
 
+//srolldown
+var setting= document.getElementById("setting");
+setting.addEventListener("click",()=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+})
+
 
 //portfolio
 
 var portfoliobox = document.getElementsByClassName("portfolio")
+var portfolioclick = document.getElementsByClassName("modalcontainer")
+var mask = document.getElementById("modalbackgrond");
+var closebuu = document.getElementsByClassName("closebuttmodal");
+
 
 console.log(portfoliobox)
 
@@ -117,15 +127,40 @@ for(let i=0; i<portfoliobox.length; i++){
         
 
     })
-}
-
-var setting= document.getElementById("setting");
-setting.addEventListener("click",()=>{
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-})
-
+    portfoliobox[i].addEventListener("click",()=>{
+        document.body.classList.add("stop-scrolling");
+        portfolioclick[i].classList.add("active");
+        
+        setting.style.display="none";
+        console.log(setting)
+        
+        setTimeout(function(){portfolioclick[i].classList.add("smaller")  }, 40);
+        
+        
+        mask.style.display="block";
+        closebuu[i].addEventListener("click",()=>{
 
     
+            portfolioclick[i].classList.remove("active")
+            mask.style.display="none";
+            document.body.classList.remove("stop-scrolling")
+            setting.style.display="block";
+            portfolioclick[i].classList.remove("smaller")
+            console.log(setting)
+           
+            console.log("butt")
+        })
+
+
+    })
+
+}
+
+
+
+
 
    
+
+
 
