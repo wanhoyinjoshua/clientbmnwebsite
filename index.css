@@ -8,6 +8,9 @@
     
 
 }
+.lead.font-weight-bold{
+    font-weight: bold;
+}
 button{
     border: none;
 }
@@ -227,7 +230,7 @@ main{
 #about{
     display: grid;
     grid-template-columns: 30% 70%;
-    width: 100%;
+    max-width: 90%;
     margin: 0 auto;
     background-color: rgb(100, 184, 163);
 
