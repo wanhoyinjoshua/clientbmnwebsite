@@ -918,7 +918,7 @@ footer{
   }
   @media only screen and (max-width: 800px) {
     
-    #propic{
+    .propic{
     display: none;
         
         
