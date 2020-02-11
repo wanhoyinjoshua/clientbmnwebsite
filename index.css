@@ -885,6 +885,7 @@ footer{
     }
     .maincanvas{
         width: 100%;
+        background-image: url(./screenmobile.png)
     }
     .aboutwords{
         
@@ -917,6 +918,10 @@ footer{
         border-width: 3px;
         
         margin-bottom: 10px;
+    }
+    .maincanvas{
+        width: 100%;
+        background-image: url(./screenmobile.png)
     }
     .mobile{
         display:none
@@ -1078,6 +1083,10 @@ footer{
     
        
     }
+    .maincanvas{
+        width: 100%;
+        background-image: url(./screenmobile.png)
+    }
     
     
   }
@@ -1093,6 +1102,10 @@ footer{
     }
     body{
         max-width: 100%;
+    }
+    .maincanvas{
+        width: 100%;
+        background-image: url(./screenmobile.png)
     }
     
        
