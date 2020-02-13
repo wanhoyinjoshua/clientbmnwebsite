@@ -381,11 +381,11 @@ h1{
 #mainillustration{
     height: 80vh;
     width: 100%;
-    background-color: rgba(255, 194, 242, 0.582);
+    
     
 }
 .maincanvas{
-    background-image: url("./screen.png");
+    background-image: url("./splah1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
