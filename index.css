@@ -963,10 +963,10 @@ footer{
         background-color: rgb(255, 248, 228);
         position: fixed;
        
-        top:5%;
-        left:calc(2.5%);
-        height: 95%;
-        width:95%;
+        top:0;
+        left:0;
+        height: 100%;
+        width:100%;
         overflow-y: scroll;
         display: none;
         opacity: 0.5;
