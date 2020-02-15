@@ -1,5 +1,5 @@
 var showpic = document.getElementById("slideshowimgcontainer");
-var accopic = document.getElementById("accpropic");
+
 var accowords = document.getElementById("accowords");
 var next = document.getElementById("go");
 var back = document.getElementById("back");
@@ -10,20 +10,7 @@ var w=0;
 
 
 
-accopic.addEventListener("click",()=>{
-    if(accowords.style.maxHeight){
-        accowords.style.maxHeight=null;
 
-
-    }
-    else{
-        accowords.style.maxHeight=accowords.scrollHeight+"px";
-
-    }
-   
-
-
-})
 
 go.addEventListener("click",()=>{
     
